@@ -15,10 +15,11 @@ const generateNewShortURL = async(req, res)=>{
         await URL.create({
             shortId: shortID,
             redirectURL: body.url,
-            visitHistory: []
+            visitHistory: [],
+            createdBy: req.user._id
         });
 
-        res.status(201).json({
+        return res.render('home', {
             id: shortID
         })
     } catch (error) {
