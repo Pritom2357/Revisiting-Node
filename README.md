@@ -1,4 +1,4 @@
-# Revisiting Node.js — My Iterative Comeback
+# Revisiting Node.js — Some Re-Iteration
 
 Hey, I’m **Pritom Biswas**. This repo is basically my Node.js revision log — me re-walking through the basics, poking at the internals, and slowly stacking up to modern stuff: sockets, GraphQL, Prisma, and all that is intuitive.
 Each folder here is either a tiny sandbox or a mini-workflow where I test the concepts. 😊
